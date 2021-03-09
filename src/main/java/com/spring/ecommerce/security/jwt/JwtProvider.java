@@ -19,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class JwtProvider {
 
-	private String jwtSecret = "jwtGrokonezSecretKey";
+	private String jwtSecret = "jwtGrokonezSecretKeyaaaaaaaaaaaaaasnodinvseorisluvnslvbuhvseoisssssss";
 
 	private int jwtExpiration = 86400;
 

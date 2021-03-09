@@ -6,8 +6,10 @@ import lombok.Data;
 @Data
 public class BrandDto {
 
-	String id;
-	String name;
-	String code;
-	String description;
+	private String id;
+	private String name;
+	private String code;
+	private String description;
+	private String createdBy;
+	private String updatedBy;
 }

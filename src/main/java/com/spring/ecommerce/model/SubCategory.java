@@ -22,7 +22,7 @@ import lombok.EqualsAndHashCode;
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Entity
-@Table(name="ecommerce_product_type")
+@Table(name="ecommerce_sub_category")
 public class SubCategory extends AbstractPersistableEntity{
 
 	private static final long serialVersionUID = 1L;

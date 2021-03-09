@@ -9,4 +9,6 @@ public class SubCategoryDto {
 	private String Name;
 	private String categoryId;
 	private String categoryName;
+	private String createdBy;
+	private String updatedBy;
 }

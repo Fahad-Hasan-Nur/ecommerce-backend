@@ -16,4 +16,6 @@ public class ProductDto {
 	private String subCategoryName;
 	private double price;
 	private int quantity;
+	private String createdBy;
+	private String updatedBy;
 }

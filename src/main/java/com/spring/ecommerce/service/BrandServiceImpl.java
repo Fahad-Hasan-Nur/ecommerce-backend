@@ -36,12 +36,11 @@ public class BrandServiceImpl implements BrandService {
 	 * @return {@link Brand}
 	 *************************************************************************/
 	@Override
-	public Brand create(Brand brand, HttpServletResponse rs) {
+	public Brand create(Brand brand) {
 		try {
 			return brandRepo.save(brand);
 		} catch (Exception e) {
 			log.warn("Failed to create  Product: ", e);
-			rs.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
 			return brand;
 		}
 	}
